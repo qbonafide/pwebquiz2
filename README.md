@@ -1,4 +1,5 @@
-1. Create Database
+1. Change dbUser and dbPass in db.jsp with yours
+2. Create Database
 CREATE DATABASE IF NOT EXISTS itstudy_jsp;
 USE itstudy_jsp;
 
@@ -61,6 +62,6 @@ CREATE TABLE bookings (
     FOREIGN KEY (room_id) REFERENCES rooms(id)
 );
 
-2. add this repository into folder apache/webapps
-3. run from apache/bin with command catalina.bat run
+3. add this repository into folder apache/webapps
+4. run from apache/bin with command catalina.bat run
    
