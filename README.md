@@ -1,7 +1,7 @@
 # PWebQuiz2
 
 A simple room booking web application using JSP.  
-**Environment:** Tomcat 10.1/Tomcat 11 · JDK 24 · VSCode
+**Environment:** Tomcat 10.1/Tomcat 11 · JDK 21/24 · VSCode
 
 ---
 
