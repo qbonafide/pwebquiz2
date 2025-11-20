@@ -1,5 +1,5 @@
 Requirements:
-Tomcat 10.1, JDK 24, VSCode (install Extension Pack for Java Auto Config, Community Server Connectors, Maven for Java)
+Tomcat 10.1, JDK 24, VSCode 
 
 1. Change dbUser and dbPass in db.jsp with yours
    
