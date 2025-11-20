@@ -95,3 +95,15 @@ CREATE TABLE bookings (
   ```
 
 ---
+
+### 5. To Change Booking Status To "Confirmed"
+
+```sql
+SELECT id, user_id, status, date, start_time, end_time
+FROM bookings
+WHERE status = 'pending';
+
+UPDATE bookings
+SET status = 'confirmed'
+WHERE id IN (?,?);
+```
